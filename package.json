@@ -4,8 +4,9 @@
   "private": true,
   "proxy": "http://localhost:3001",
   "scripts": {
-    "start": "./bin/www",
-    "db:reset": "node db/resetdb.js"
+    "start": "node ./app.js",
+    "db:reset": "node db/resetdb.js",
+    "dev:start": "nodemon ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
