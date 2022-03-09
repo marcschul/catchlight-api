@@ -29,7 +29,7 @@ const removeFromWatchList = require('./routes/removeFromWatchList');
 const isInWatchList = require('./routes/isInWatchList');
 
 // port
-const PORT = process.env.PORT || 8001;
+// const PORT = process.env.PORT || 8001;
 
 // create express object
 const app = express();
@@ -84,8 +84,8 @@ app.use(function(req, res, next) {
   next(createError(404));
 });
 
-app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Listening on port ${PORT}`);
+// });
 
 module.exports = app;
