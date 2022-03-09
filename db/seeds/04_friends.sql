@@ -23,4 +23,9 @@ VALUES
 (6, 10, true, false),
 (6, 11, true, false),
 (6, 3, true, false),
-(5, 2, true, false);
+(5, 2, true, false),
+(14, 5, true, false),
+(14, 4, true, false),
+(14, 6, true, false),
+(14, 1, true, false),
+(14, 2, true, false);

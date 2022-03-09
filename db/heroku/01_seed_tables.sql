@@ -14,7 +14,8 @@ VALUES
 ('Ben Apples', 'ben@gmail.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://cdn.discordapp.com/attachments/867480158658756629/942842921932165150/apple_158989157.jpg'),
 ('Keanu Reeves', 'keanu@reeves.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://upload.wikimedia.org/wikipedia/commons/3/33/Reuni%C3%A3o_com_o_ator_norte-americano_Keanu_Reeves_%2846806576944%29_%28cropped%29.jpg'), 
 ('Robin Williams', 'robin@williams.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg'), 
-('Albert Einstein', 'albert@einstein.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg');
+('Albert Einstein', 'albert@einstein.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg'),
+('Test Account', 'test@email.com', '$2b$10$y3SJQS5SvhohnkeZ593eT.VjObqT.ZbfXBu/es4JA35CETZIQBpV6', 'https://cdn.discordapp.com/attachments/867480158658756629/942845633985929266/20220205_121450.jpg');
 
 
 
@@ -626,7 +627,16 @@ VALUES
 (11, 10, 'meh'),
 (3, 10, 'interest'),
 (8, 83, 'like'),
-(5, 27, 'interest');
+(5, 27, 'interest'),
+(14, 1, 'like'),
+(14, 2, 'interest'),
+(14, 11, 'dislike'),
+(14, 4, 'meh'),
+(14, 8, 'like'),
+(14, 12, 'dislike'),
+(14, 3, 'interest'),
+(14, 10, 'interest'),
+(14, 5, 'interest');
 
 
 
@@ -657,7 +667,12 @@ VALUES
 (6, 10, true, false),
 (6, 11, true, false),
 (6, 3, true, false),
-(5, 2, true, false);
+(5, 2, true, false),
+(14, 5, true, false),
+(14, 4, true, false),
+(14, 6, true, false),
+(14, 1, true, false),
+(14, 2, true, false);
 
 
 
